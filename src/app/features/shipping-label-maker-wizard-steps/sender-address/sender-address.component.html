@@ -1,0 +1,22 @@
+<form [formGroup]="senderForm">
+  <div>
+    <label for="name">Receiver name: </label>
+    <input id="name" type="text" formControlName="name" >
+  </div>
+
+  <div>
+    <label for="street">Street: </label>
+    <input id="street" type="text" formControlName="street" >
+  </div>
+  <div>
+    <label for="city">City: </label>
+    <input id="city" type="text" formControlName="city">
+
+    <label for="state">State: </label>
+    <input id="state" type="text" formControlName="state">
+
+    <label for="zip">Zip: </label>
+    <input id="zip" type="text" formControlName="zip">
+  </div>
+</form>
+

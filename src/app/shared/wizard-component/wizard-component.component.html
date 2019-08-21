@@ -1,0 +1,8 @@
+<div>
+  <ng-content></ng-content>
+  <ng-container *ngTemplateOutlet="getCurrentStep().content"></ng-container>
+  <div>
+    <button (click)="prev()"> Previous </button>
+    <button (click)="next()"> {{nextLabel}} </button>
+  </div>
+</div>

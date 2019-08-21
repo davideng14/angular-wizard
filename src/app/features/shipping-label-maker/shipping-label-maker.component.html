@@ -1,0 +1,20 @@
+<app-wizard [wizardContext]="wizardContext">
+    <app-wizard-header>
+      <h1>{{title}}</h1>
+    </app-wizard-header>
+    <app-wizard-step>
+      <app-sender-address #specific></app-sender-address>
+    </app-wizard-step>
+    <app-wizard-step>
+      <app-receiver-address #specific></app-receiver-address>
+    </app-wizard-step>
+    <app-wizard-step>
+      <app-weight #specific></app-weight>
+    </app-wizard-step>
+    <app-wizard-step>
+      <app-shipping-option #specific></app-shipping-option>
+    </app-wizard-step>
+    <app-wizard-step>
+      <app-wizard-confirmation #specific></app-wizard-confirmation>
+    </app-wizard-step>
+</app-wizard>
